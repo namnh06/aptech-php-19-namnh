@@ -1,0 +1,21 @@
+div {
+  height: 100px;
+
+}
+
+#mot {
+  display: flex;
+  background-color: lightblue;
+}
+
+#hai {
+  background-color: purple;
+}
+
+#ba {
+  background-color: yellow;
+}
+
+#bon {
+  background-color: green;
+}
