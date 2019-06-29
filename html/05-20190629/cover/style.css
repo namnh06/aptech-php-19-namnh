@@ -1,0 +1,7 @@
+.Border-bottom-custom {
+  border-bottom: 3px solid white;
+}
+
+li:hover {
+  border-bottom: 3px solid gray;
+}
