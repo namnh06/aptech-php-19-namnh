@@ -1,0 +1,24 @@
+body {
+  font-family: "DM Serif Display", serif;
+}
+
+.Header__First-Row__First-Column--height-100px {
+  height: 100px;
+}
+
+.Header__First-Row__First-Column__Button {
+  width: 75%;
+}
+
+.Header__First-Row__First-Column__Button--bg-orange {
+  background-color: orange;
+}
+
+.Header__First-Row__First-Column__Button--border-radius {
+  border-radius: 10px;
+}
+
+.Header__Second-Row__First-Column--height-100px {
+  height: 100px;
+}
+/*# sourceMappingURL=test.css.map */

@@ -1,0 +1,40 @@
+$mt: 100px;
+$font: 'DM Serif Display',
+serif;
+
+body {
+  font-family: $font;
+}
+
+.Header {
+  &__First-Row {
+    &__First-Column {
+      &--height-100px {
+        height: $mt;
+      }
+
+      &__Button {
+        width: 75%;
+
+        &--bg-orange {
+          background-color: orange;
+        }
+
+        &--border-radius {
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+
+  &__Second-Row {
+    &__First-Column {
+      &--height-100px {
+        height: $mt;
+      }
+    }
+  }
+}
+
+
+.Footer {}

@@ -1,0 +1,28 @@
+#First,
+#Second {
+  height: 100px;
+  width: 50%;
+}
+
+#Parent {
+  display: flex;
+}
+
+#First {
+  background-color: red;
+}
+
+#Second {
+  background-color: green;
+}
+
+@media (max-width: 768px) {
+  #Parent {
+    display: block;
+  }
+
+  #First,
+  #Second {
+    width: 100%;
+  }
+}

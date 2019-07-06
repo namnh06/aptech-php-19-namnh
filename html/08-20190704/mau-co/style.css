@@ -1,0 +1,40 @@
+ body {
+   background-color: whitesmoke;
+ }
+
+ #Parent {
+   display: flex;
+ }
+
+ #First,
+ #Second,
+ #Third {
+   height: 100px;
+   width: 33%;
+ }
+
+ #First {
+
+   background-color: green;
+ }
+
+ #Second {
+
+   background-color: white;
+ }
+
+ #Third {
+
+   background-color: red;
+ }
+
+ @media (max-width: 768px) {
+   #First {
+     background-color: red;
+   }
+
+
+   #Third {
+     background-color: green;
+   }
+ }
