@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+  <h1 id="loi-chao">Hello World</h1>
+  <button onclick="quetNha();">quet nha</button>
+  <button onclick="doiChu();">Doi Chu</button>
+  <button onclick="doiMau();">Doi Mau</button>
+  <script>
+    // function tinhTong() {
+    //   var tong = 5 + 6;
+    //   return tong;
+    // }
+
+    // var giaTri = tinhTong();
+    // console.log(tinhTong());
+    // camelCase
+    // snake_case
+    var elementLoiChao = document.getElementById('loi-chao');
+    console.log(elementLoiChao);
+
+    function doiMau() {
+      elementLoiChao.style.color = 'red';
+    }
+
+    function doiChu() {
+      elementLoiChao.innerHTML = 'PHP 19';
+    }
+
+    function quetNha() {
+      chaoMoiNguoi();
+      console.log('Quet nha');
+    }
+
+    function chaoMoiNguoi() {
+      console.log('Chao Moi Nguoi');
+    }
+    // console.log(5 + 6); // concatenate
+    // concatenate + >< plus +
+    // console.log('Nam ' + 'Nu'); // plus
+    // console.log('5' + 6);
+    // console.log(5 + '6' + 4);
+
+    // var a = 'Nam';
+    // console.log('Nam');
+    // console.log(a);
+    // console.log(a + ' xin chao cac ban');
+
+    // var id = 'loi-chao';
+    // document.getElementById(id).innerHTML = 'Aptech PHP 19';
+  </script>
+</body>
+
+</html>
