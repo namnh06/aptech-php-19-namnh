@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./jquery.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#an-chu').click(function () {
+        $('h1').hide();
+      });
+      $('#doi-mau-nen-chu').click(function () {
+        $('h1').css('background-color', 'red');
+      });
+      $('#doi-tag').click(function () {
+        var noiDungTagCu = $('h1').text();
+        console.log(noiDungTagCu);
+        $('h1').replaceWith("<h2>" + noiDungTagCu + "</h2>");
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <h1>Hello PHP 19</h1>
+  <button id="an-chu">an hello php 19 di</button>
+  <button id="doi-mau-nen-chu">Doi Mau Nen Chu</button>
+  <button id="doi-tag">Doi Tag</button>
+
+
+</body>
+
+</html>
